@@ -9,7 +9,8 @@ public class ProjectEuler {
        System.out.println("Second problem: "+fibo.getSum());
        LargestPrimeFactor large= new LargestPrimeFactor();
        System.out.println("Third problem: "+large.getMajor());
-       
        System.out.println("Fourth problem: "+ LargestPalindrome.largesPalindrome());
+       
+        System.out.println("Fifth Problem: "+SmallestMultiple.smallestNumber());
     }
 }
