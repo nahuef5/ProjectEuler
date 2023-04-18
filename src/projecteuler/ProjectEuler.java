@@ -15,7 +15,7 @@ public class ProjectEuler {
        System.out.println("Sixth Problem : "+ sq.getDifference());
        
        Primes pr=new Primes();
-        System.out.println(pr.getValue(pr.primes10001()));
-        System.out.println(pr.isPrime(1299743));
+        System.out.println("Seventh Problem "+pr.getValue(pr.primes10001()));
+        
     }
 }

@@ -3,7 +3,7 @@ package projecteuler;
 import java.util.*;
 
 public class Primes {
-    public boolean isPrime(int number){
+    private boolean isPrime(int number){
         for(int i=2;i<=Math.sqrt(number);i++){
             if(number % i== 0){
                 return false;
