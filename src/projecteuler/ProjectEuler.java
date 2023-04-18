@@ -11,8 +11,11 @@ public class ProjectEuler {
        System.out.println("Third problem: "+large.getMajor());
        System.out.println("Fourth problem: "+ LargestPalindrome.largesPalindrome());
        System.out.println("Fifth Problem: "+SmallestMultiple.smallestNumber());
-       
        SquareDifference sq=new SquareDifference();
        System.out.println("Sixth Problem : "+ sq.getDifference());
+       
+       Primes pr=new Primes();
+        System.out.println(pr.getValue(pr.primes10001()));
+        System.out.println(pr.isPrime(1299743));
     }
 }
